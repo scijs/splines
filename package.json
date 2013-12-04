@@ -1,0 +1,21 @@
+{
+  "name": "splines",
+  "version": "0.0.0",
+  "description": "Convenient and efficient B-splines.",
+  "main": "splines.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaspervdg/splines"
+  },
+  "author": "Jasper van de Gronde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaspervdg/splines/issues"
+  },
+  "devDependencies": {
+    "tape": "~2.3.0"
+  }
+}
