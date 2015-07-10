@@ -2,8 +2,8 @@ var assert = require('assert');
 
 // TODO: This could probably be a little bit more efficient by explicitly working out (programmatically!) the computation for each i.
 module.exports.bspline = function (n, period) {
-    assert(n>=0 && n==n|0, "B-spline order must be a non-negative integer.");
-    assert(period===undefined || period>=n+1, "Periodic B-spline must have period larger than or equal to order+1."); // TODO: This condition could be lifted, but it does make things a little complicated.
+    assert(n>=0 && n==n|0, "splines: B-spline order must be a non-negative integer.");
+    assert(period===undefined || period>=n+1, "splines: Periodic B-spline must have period larger than or equal to order+1."); // TODO: This condition could be lifted, but it does make things a little complicated.
     var j, k, text = [], gammaAccu = 1;
     text.push("var t=x+" + ((n+1)/2) +";");
     if (period!==undefined) {

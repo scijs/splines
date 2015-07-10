@@ -1,21 +1,26 @@
 {
   "name": "splines",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convenient and efficient B-splines.",
   "main": "splines.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaspervdg/splines"
+    "url": "git://github.com/scijs/splines"
   },
   "author": "Jasper van de Gronde",
   "license": "MIT",
+  "keywords": [
+    "scijs",
+    "spline",
+    "b-spline"
+  ],
   "bugs": {
-    "url": "https://github.com/jaspervdg/splines/issues"
+    "url": "https://github.com/scijs/splines/issues"
   },
   "devDependencies": {
-    "tape": "~2.3.0"
+    "tape": "^4.0.0"
   }
 }

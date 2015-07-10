@@ -1,5 +1,5 @@
 var test = require('tape');
-var splines = require('./splines.js');
+var splines = require('../splines.js');
 
 test("B-spline", function(t) {
     var i, err, spl = [splines.bspline(0),splines.bspline(1),splines.bspline(2),splines.bspline(3),splines.bspline(4),splines.bspline(5)],
